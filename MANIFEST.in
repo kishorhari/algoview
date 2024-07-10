@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include algoview *.css
+recursive-include algoview *.csv
+recursive-include algoview *.html
+recursive-include algoview *.ico
+recursive-include algoview *.js
+recursive-include algoview *.json
+recursive-include algoview *.md
+recursive-include algoview *.png
+recursive-include algoview *.py
+recursive-include algoview *.svg
+recursive-include algoview *.txt
+recursive-exclude algoview *.pyc
