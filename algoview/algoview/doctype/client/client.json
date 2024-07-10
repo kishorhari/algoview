@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-07-10 11:42:11.810611",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "full_name",
+  "email",
+  "mobile",
+  "column_break_ndgwc",
+  "relationship_manager",
+  "service_group",
+  "licence",
+  "column_break_g3v46",
+  "start_date",
+  "end_date",
+  "section_break_lajfs",
+  "strategy",
+  "section_break_8xt7m",
+  "algoview",
+  "column_break_dz1yg",
+  "price_action_breakout"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "licence",
+   "fieldtype": "Select",
+   "label": "Licence",
+   "options": "\nLive\nDemo"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "service_group",
+   "fieldtype": "Select",
+   "label": "Service Group",
+   "options": "\nMulti\nCash\nOption"
+  },
+  {
+   "fieldname": "relationship_manager",
+   "fieldtype": "Link",
+   "label": "Relationship Manager",
+   "options": "Sales Person"
+  },
+  {
+   "fieldname": "column_break_ndgwc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_g3v46",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "strategy",
+   "fieldtype": "Check",
+   "label": "Strategy"
+  },
+  {
+   "default": "0",
+   "fieldname": "algoview",
+   "fieldtype": "Check",
+   "label": "AlgoView"
+  },
+  {
+   "fieldname": "section_break_lajfs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dz1yg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "price_action_breakout",
+   "fieldtype": "Check",
+   "label": "Price Action Breakout"
+  },
+  {
+   "depends_on": "eval:doc.strategy == 1",
+   "fieldname": "section_break_8xt7m",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-10 11:54:57.407681",
+ "modified_by": "Administrator",
+ "module": "AlgoView",
+ "name": "Client",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
