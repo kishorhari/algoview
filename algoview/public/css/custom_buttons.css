@@ -1,0 +1,24 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.custom-button {
+    background-color: #2490ef; /* Orange background */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.custom-button:last-child {
+    margin-right: 0;
+}

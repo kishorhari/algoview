@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-07-10 12:33:09.753377",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "signals_time",
+  "type",
+  "symbol",
+  "price",
+  "strategy",
+  "column_break_xe9yq",
+  "trade_type",
+  "entry_exit_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "SIG.-.YY.-"
+  },
+  {
+   "fieldname": "signals_time",
+   "fieldtype": "Datetime",
+   "label": "Signals Time"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "LE\nLX"
+  },
+  {
+   "fieldname": "symbol",
+   "fieldtype": "Data",
+   "label": "Symbol"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Data",
+   "label": "Price"
+  },
+  {
+   "fieldname": "strategy",
+   "fieldtype": "Link",
+   "label": "Strategy",
+   "options": "Strategy"
+  },
+  {
+   "fieldname": "trade_type",
+   "fieldtype": "Select",
+   "label": "Trade Type",
+   "options": "OPTION CHAIN"
+  },
+  {
+   "fieldname": "entry_exit_status",
+   "fieldtype": "Select",
+   "label": "Entry/Exit Status",
+   "options": "TARGET\nSTOPLOSS"
+  },
+  {
+   "fieldname": "column_break_xe9yq",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-10 12:48:07.519309",
+ "modified_by": "Administrator",
+ "module": "AlgoView",
+ "name": "Signals",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

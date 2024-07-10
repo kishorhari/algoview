@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:strategy_name",
+ "creation": "2024-07-10 12:40:55.027672",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "strategy_name",
+  "catagory",
+  "indicator",
+  "strategy_logo",
+  "column_break_x5xat",
+  "per_lot_amount",
+  "segment",
+  "strategy_tester",
+  "strategy_description",
+  "section_break_q3dp6",
+  "monthly",
+  "quaterly",
+  "column_break_r0bxh",
+  "half_yearly",
+  "yearly"
+ ],
+ "fields": [
+  {
+   "fieldname": "strategy_name",
+   "fieldtype": "Data",
+   "label": "Strategy Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "catagory",
+   "fieldtype": "Data",
+   "label": "Catagory"
+  },
+  {
+   "fieldname": "indicator",
+   "fieldtype": "Attach Image",
+   "label": "Indicator"
+  },
+  {
+   "fieldname": "strategy_logo",
+   "fieldtype": "Attach Image",
+   "label": "Strategy Logo"
+  },
+  {
+   "fieldname": "section_break_q3dp6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_x5xat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "per_lot_amount",
+   "fieldtype": "Data",
+   "label": "Per Lot Amount"
+  },
+  {
+   "fieldname": "segment",
+   "fieldtype": "Select",
+   "label": "Segment",
+   "options": "Cash\nOption\nFuture\nMCX Future\nMCX Option\nCurrency Option\nCurrency Future\nFuture Option"
+  },
+  {
+   "fieldname": "strategy_tester",
+   "fieldtype": "Attach Image",
+   "label": "Strategy Tester"
+  },
+  {
+   "fieldname": "strategy_description",
+   "fieldtype": "Small Text",
+   "label": "Strategy description"
+  },
+  {
+   "fieldname": "monthly",
+   "fieldtype": "Data",
+   "label": "Monthly"
+  },
+  {
+   "fieldname": "quaterly",
+   "fieldtype": "Data",
+   "label": "Quaterly"
+  },
+  {
+   "fieldname": "column_break_r0bxh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "half_yearly",
+   "fieldtype": "Data",
+   "label": "Half Yearly"
+  },
+  {
+   "fieldname": "yearly",
+   "fieldtype": "Data",
+   "label": "Yearly"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-10 12:44:23.960016",
+ "modified_by": "Administrator",
+ "module": "AlgoView",
+ "name": "Strategy",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
