@@ -13,7 +13,7 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/algoview/css/algoview.css"
+app_include_css = "/assets/algoview/css/custom_workspace.css"
 # app_include_js = "/assets/algoview/js/algoview.js"
 
 # include js, css files in header of web template
