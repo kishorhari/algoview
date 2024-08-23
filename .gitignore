@@ -45,3 +45,7 @@ Thumbs.db
 # Lockfiles
 package-lock.json
 yarn.lock
+
+
+# Ignore Python cache files
+__pycache__/
