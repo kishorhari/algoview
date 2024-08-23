@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js (frontend project)
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/node_modules/
+
+# production environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Optional npm/yarn cache directory
+.npm
+.yarn
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Lockfiles
+package-lock.json
+yarn.lock
